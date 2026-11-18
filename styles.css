@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #2185d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    padding: 35px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+h2 {
+    color: #222222;
+    margin-bottom: 22px;
+    font-size: 1.6rem;
+}
+
+.subtitle {
+    color: #555555;
+    font-size: 0.95rem;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+.form-group {
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    transition: border-color 0.2s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4a6cf7;
+}
+
+.hint {
+    display: block;
+    color: #777777;
+    font-size: 0.78rem;
+    margin-top: 4px;
+}
+
+.error-msg {
+    display: block;
+    color: #d93025;
+    font-size: 0.8rem;
+    margin-top: 3px;
+    font-weight: 500;
+}
+
+.btn-primary {
+    display: inline-block;
+    width: 100%;
+    background-color: #4a6cf7;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 8px;
+    transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #3a57d6;
+}
+
+.links {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #555555;
+}
+
+.links p {
+    margin-bottom: 8px;
+}
+
+.links a {
+    color: #4a6cf7;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.alert {
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 0.88rem;
+}
+
+.alert.error {
+    background-color: #fdecea;
+    color: #d93025;
+    border: 1px solid #f5c2c7;
+}
+
+.alert.success {
+    background-color: #e6f4ea;
+    color: #1e8e3e;
+    border: 1px solid #badbcc;
+}
